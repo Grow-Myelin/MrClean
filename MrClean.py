@@ -262,7 +262,6 @@ def navigate_directory(directory: Path, stats: dict, start_path: Path, parent_su
             else:
                 print(f"✨ No cleanable items found in any subfolders")
                 has_recursive_items = False
-            input("\nPress Enter to continue...")
             continue
 
         elif choice == 'w' and can_wipe:
